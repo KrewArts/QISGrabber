@@ -22,7 +22,7 @@ countPassedExams = 0
 countFailedExams = 0
 
 # parameter for the post request
-payload = {'state': 'user', 'type': '1', 'category': 'auth.login', 'startpage': 'qispos/notenspiegel/student', 'breadCrumbSource': 'qispos/notenspiegel/student', 'asdf': username, 'fdsa': password, 'submit': 'Anmelden'}
+payload = {'state': 'user', 'type': '1', 'category': 'auth.login', 'startpage': 'portal.vm', 'breadCrumbSource': 'qispos/notenspiegel/student', 'asdf': username, 'fdsa': password, 'submit': 'Anmelden'}
 
 # create new .Session() object
 s = requests.Session()
